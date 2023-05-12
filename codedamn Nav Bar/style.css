@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(188, 138, 138);
+    font-family: "Inter", sans-serif;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    border-bottom : 7px  solid rgb(100, 89, 89);
+    background: #000;
+    margin-top: 150px;
+    width: 90%;
+    margin-left: 10px;
+
+}
+
+.Name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* border: 2px solid navy; */
+width: 25%;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 25%;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+}
+h2{
+    color: whitesmoke;
+    font-weight: 600;
+	font-family: "Inter", sans-serif;
+}
+.Nav_Links{
+    display: flex;
+    justify-content: space-between;
+    width: 32%;
+}
+.Navlinks{
+    background-color:#000;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+    font-weight: 300;
+    font-size: x-small;
+    
+    
+}
+h3{
+    color: whitesmoke;
+    font-size: x-small;
+}
+button{
+    padding: 7px 20px;
+    border-radius: 6px;
+    background-color: rgb(108, 108, 250);
+    color: whitesmoke;
+}
